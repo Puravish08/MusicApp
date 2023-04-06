@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#1c1b1b"
+    android:layout_height="match_parent"
+    tools:context=".EnglishPlaylist">
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="center"
+                    android:src="@drawable/build_a_beatch" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="build a beach "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="center"
+                    android:src="@drawable/bad_habita"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Bad Habit "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/demon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Demon "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dusk_till_dawn"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Dusk Till Dawn"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rockbye"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Rockbye "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="center"
+                    android:src="@drawable/shivers"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Shivers "
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="center"
+                    android:src="@drawable/sweet_but_psycho"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Sweet But Psycho"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+                <ImageButton
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:scaleType="center"
+                    android:src="@drawable/thunder"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_15sdp"
+                    android:text="Thunder"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/san_francisco_bold"/>
+
+
+</LinearLayout>
+
+    </ScrollView>
+        </LinearLayout>

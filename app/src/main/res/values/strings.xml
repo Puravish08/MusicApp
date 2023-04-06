@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">P Music Pro</string>
+    <string name="tukaafihai">Tukaafihai</string>
+    <string name="outtime">Outtime</string>
+    <string name="highwaytohell">Highwaytohell</string>
+    <string name="your_music_is_now_playing">Your Music is Now Playing</string>
+    <string name="search">Search</string>
+    <string name="bad_habit">Bad Habit</string>
+    <string name="hindi_songs">Hindi Songs</string>
+    <string name="besarm">Besarm</string>
+</resources>

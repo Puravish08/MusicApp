@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1c1b1b"
+    tools:context=".PlaylistActivity">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text=" Your  Playlist "
+        android:fontFamily="@font/opensans_semibold"
+        android:textColor="#26FF0E"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/englishplaylist"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/englisplaylist" />
+
+        <TextView
+            android:layout_width="164dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ios_11_light"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="English Songs"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/hindiplaylist"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hindiplaylist" />
+
+        <TextView
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hindi Songs"
+            android:fontFamily="@font/ios_11_light"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gujaratiplaylist"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gujaratiplaylist" />
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/ios_11_light"
+            android:gravity="center"
+            android:text="Gujarati Songs"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_12sdp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/punjabiplaylist"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/punjabiplaylist" />
+
+        <TextView
+            android:layout_width="173dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/ios_11_light"
+            android:textColor="#FFFFFF"
+            android:text="Punjabi Songs"
+            android:textSize="@dimen/_12sdp" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
